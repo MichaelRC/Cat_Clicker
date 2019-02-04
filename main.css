@@ -1,0 +1,38 @@
+/* Genmeral Styling */
+body,
+html {
+    margin: 2px;
+    padding: 2px;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: black;
+}
+
+/* Word Styling */
+.counter {
+    width: 20%;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.words {
+    width: 50%;
+    position: relative;
+}
+
+.num_clicks {
+    width: 50%;
+    position: relative;
+}
+
+
+/* Picture Styling */
+.img {
+    width: 100%;
+    position: center;
+}
