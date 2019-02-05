@@ -1,38 +1,41 @@
 /* Genmeral Styling */
 body,
 html {
-    margin: 2px;
-    padding: 2px;
+    margin: 0.5em;
+    padding: 0.5em;
     width: 100%;
     height: 100%;
 }
 
-html {
+*,*::before, *::after {
+    box-sizing: inherit;
+}
+
+header {
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
+    font-weight: bold;
     color: black;
 }
 
-/* Word Styling */
-.counter {
-    width: 20%;
-    display: inline-block;
-    border: 2px solid black;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.words {
-    width: 50%;
-    position: relative;
+#words, #num_clicks {
+    text-align: left;
+    margin: 10px;
 }
-
-.num_clicks {
-    width: 50%;
-    position: relative;
-}
-
 
 /* Picture Styling */
-.img {
-    width: 100%;
-    position: relative;
+.img_box {
+    border: black
+}
+
+#img {
+    width: 500px;
+    margin: 12px;
 }
