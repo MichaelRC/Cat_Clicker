@@ -1,7 +1,9 @@
 /*Gobal Variables*/
 
 // Take image and store in elem
-var elem = document.getElementById('img');
+var cats = [
+    
+];
 // Take clicker HTML ID and store it in ClickCount
 var clickCount = document.getElementById('num_clicks'); 
 // Variable to store number of clicks.
