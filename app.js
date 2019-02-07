@@ -2,7 +2,15 @@
 
 // Take image and store in elem
 var cats = [
-    
+    {
+        name: 'Little Kitty',
+        imgSrc: 'imgs/cat_picture.jpg',
+        clicks: 0         
+    }, {
+        name: 'Soon Cat',
+        imgSrc: 'imgs/soon.jpg',
+        clicks: 0
+    }
 ];
 // Take clicker HTML ID and store it in ClickCount
 var clickCount = document.getElementById('num_clicks'); 
